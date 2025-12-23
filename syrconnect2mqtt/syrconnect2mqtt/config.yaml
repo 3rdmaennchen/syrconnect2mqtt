@@ -1,0 +1,22 @@
+name: "syrconnect2mqtt"
+version: "1.0.0"
+slug: "syrconnect2mqtt"
+description: "SYR Connect → MQTT Bridge for Home Assistant (Lex 10 SL Connect)"
+startup: services
+boot: auto
+init: false
+panel_icon: mdi:water
+
+options:
+  username: ""
+  password: ""
+  mqtt_host: "core-mosquitto"
+  mqtt_port: 1883
+  interval: 60
+
+schema:
+  username: str
+  password: str
+  mqtt_host: str
+  mqtt_port: int
+  interval: int
