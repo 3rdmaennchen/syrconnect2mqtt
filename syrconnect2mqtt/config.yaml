@@ -5,7 +5,6 @@ description: "SYR Connect → MQTT Bridge for Home Assistant (Lex 10 SL Connect)
 startup: services
 boot: auto
 init: false
-panel_icon: mdi:water
 
 options:
   username: ""
