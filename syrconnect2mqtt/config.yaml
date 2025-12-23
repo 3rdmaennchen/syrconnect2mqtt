@@ -1,10 +1,17 @@
 name: "syrconnect2mqtt"
 version: "1.0.0"
 slug: "syrconnect2mqtt"
-description: "SYR Connect → MQTT Bridge for Home Assistant (Lex 10 SL Connect)"
+description: "SYR Connect → MQTT Bridge for Home Assistant"
 startup: services
 boot: auto
 init: false
+
+arch:
+  - amd64
+  - armv7
+  - armhf
+  - aarch64
+  - i386
 
 options:
   username: ""
